@@ -1,5 +1,8 @@
-tensorflow==1.2.0
+tensorflow==1.6.0
 Keras>=2.0.4,<3.0
 h5py>=2.7.0,<3.0
 pandas>=0.18.0,<1.0
 numexpr>=2.4.6,<3.0
+
+bleach>=2.1 # not directly required, pinned by Snyk to avoid a vulnerability
+html5lib>=0.99999999 # not directly required, pinned by Snyk to avoid a vulnerability
